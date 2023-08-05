@@ -30,6 +30,8 @@ const App = () => {
                 case '/':
                     sum = Number(firstNumber) / Number(currNumber);
                     break;
+                default:
+                    break;
             }
             setFirstNumber(sum);
             setResult(sum);
@@ -51,6 +53,8 @@ const App = () => {
                     break;
                 case '/':
                     handleCalcNumbers('/');
+                    break;
+                default:
                     break;
             }
         }
