@@ -1,0 +1,24 @@
+header {
+    background-color: #2D333B;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+header h1::before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    background-image: url('../../assets/img/favicon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 5px;
+}
